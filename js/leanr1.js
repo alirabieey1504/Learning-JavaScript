@@ -1,7 +1,10 @@
-var usersCount = 4518
+var myage = 25;
 
-alert(usersCount)
-var curse = 13
-alert(curse)
-var minits = 54384
-alert(minits)
+alert(typeof myage)
+
+var name2 = "alirabiee"
+alert(typeof name2)
+var fact = true
+alert(typeof fact)
+var ismale = false
+alert(typeof ismale)
