@@ -1,6 +1,18 @@
 // Part 7
 
 var number = 12;
-//get name & family
-var userinfo = prompt("pleas name ","alirabieey")
-alert (userinfo)
+//result = prompt(title, [default]);
+let userinfo = prompt("pleas name ","alirabieey")
+alert ('My name is ali');
+ 
+
+// part 8
+//type casting
+var username=prompt("pleas get age")
+var age= Number(username)
+
+alert(typeof age)
+//type casting short cut
+var std=prompt("pleas std")
+var sss= +std
+alert(typeof sss)
