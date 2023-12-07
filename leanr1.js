@@ -1,10 +1,8 @@
 // //part 8
-var n=prompt("pleas age")
- var n=String(n)
-alert(typeof n)
-var bool=true
-var bool =String(bool)
-alert(typeof bool)
-var use=19
-var use=Boolean(use) 
-alert(typeof use)
+var n="2"
+var s="4"
+var a=s/n
+alert(typeof a)
+var f=Boolean(" ")
+alert(f) 
+// alert(typeof Number("123z"))
