@@ -1,9 +1,15 @@
 var num=prompt("please inter number")
 
-if(num%2==0){
-    alert("zoj ast")
-}
-else
+if(isNaN(num))
 {
-    alert("fard ast")
+    alert("adad vared nashode ast")
+}
+else{
+    if(num%2==0){
+        alert("zoj ast")
+    }
+    else
+    {
+        alert("fard ast")   
+    }
 }
