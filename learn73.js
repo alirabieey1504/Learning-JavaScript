@@ -18,16 +18,11 @@ if (menunumber === 1) {
 
     })
     if (!isinrecive) {
-        var cosn = prompt("true / false")
-        if (cosn) { } else if (!cosn) { }
-        else {
-            console.log("yaft nashod")
-            cons = false
-        }
+    
         var object = {
-            id: 4,
+            id: todo.length+1,
             name: receive,
-            condition: cosn
+            condition: false
         }
         todo.push(object)
     }
